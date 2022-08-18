@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Drugstore-Assessment/static/css/main.073c9b0a.css",
+    "main.js": "/Drugstore-Assessment/static/js/main.93e11fc5.js",
+    "static/js/787.01a743a1.chunk.js": "/Drugstore-Assessment/static/js/787.01a743a1.chunk.js",
+    "index.html": "/Drugstore-Assessment/index.html",
+    "main.073c9b0a.css.map": "/Drugstore-Assessment/static/css/main.073c9b0a.css.map",
+    "main.93e11fc5.js.map": "/Drugstore-Assessment/static/js/main.93e11fc5.js.map",
+    "787.01a743a1.chunk.js.map": "/Drugstore-Assessment/static/js/787.01a743a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.93e11fc5.js"
+  ]
+}
