@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Drugjson1 from './components/Drugjson1'
+import Drugjson2 from './components/Drugjson2'
+import Navbar from './components/Navbar';
+import {
+  HashRouter,
+  Routes,
+  Route,
+ 
+} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        
+     
+      <HashRouter>
+      <Navbar />
+      <p>Please Click on Drug 1 or Drug 2 in the Navigation Bar for Navigation</p>
+      <Routes>
+          
+          <Route exact path="/Drug1" element = {<Drugjson1/>}/>
+          <Route exact path="/Drug2" element = {<Drugjson2/>}/>
+                    
+            
+          </Routes>
+        
+        </HashRouter>
     </div>
   );
 }
