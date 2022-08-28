@@ -15,7 +15,7 @@ export default function Drugjson1() {
         <form align="left" onSubmit={onsubmit}>
              
                 {drug1.fields.map((formData) => {
-                  //iteration using map this requires unique key
+                  //iteration using map this requires unique k
                   return (
                     <div key={formData.order}>
                      <Item label={formData.label} type={formData.type} keys={formData.key}  required={formData.isRequired} order={formData.order} unit={formData.unit} readOnly={formData.isReadonly} />
@@ -23,6 +23,7 @@ export default function Drugjson1() {
                   );
                 })}
              <br/>
+          
               <button type="submit" className="btn btn-primary">Submit</button>
         </form>
               

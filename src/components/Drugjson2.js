@@ -19,7 +19,7 @@ export default function Drugjson2() {
         {drug2.fields.map((formData) => {
           //iteration using map this requires unique key
           return (
-            <div keys={formData.order}>
+            <div key={formData.order}>
              <Item label={formData.label} type={formData.type} keys={formData.key}  required={formData.isRequired} order={formData.order} unit={formData.unit} readOnly={formData.isReadonly} />
           </div>
           );
